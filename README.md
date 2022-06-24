@@ -1,2 +1,2 @@
-# CPMatematicas
-Página del curso Propedéutico de Matemáticas impartido en la Universidad del Mar, campus Huatulco a la carrera de Licenciatura en Administración Turística.  
+# TIyCUNO
+Pagina del curso Tecnologías de la Información y Comunicación UNO impartido en la Universidad del Mar, a la carrera de Administración Turística.    
