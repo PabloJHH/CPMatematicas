@@ -1,2 +1,3 @@
-# TIyCUNO
-Pagina del curso Tecnologías de la Información y Comunicación UNO impartido en la Universidad del Mar, a la carrera de Administración Turística.    
+# Curso Propedéutico de Matemáticas
+
+Página del <b>Curso Propedéutico de Matemáticas</b> impartido a estudiantes de  la <b>Universidad del Mar, Campus Huatulco, Oaxaca, México.</b>    
