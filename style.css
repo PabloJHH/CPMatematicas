@@ -1,24 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Faustina:ital,wght@0,300;0,500;1,500&family=Freckle+Face&family=Fredericka+the+Great&family=Roboto+Mono:wght@100&family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Enriqueta&family=Faustina:ital,wght@0,300;0,500;1,500&family=Freckle+Face&family=Fredericka+the+Great&family=Roboto+Mono:wght@100&family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Caprasimo&family=Enriqueta&family=Faustina:ital,wght@0,300;0,500;1,500&family=Freckle+Face&family=Fredericka+the+Great&family=Roboto+Mono:wght@100&family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Arbutus+Slab&family=Caprasimo&family=Enriqueta&family=Faustina:ital,wght@0,300;0,500;1,500&family=Freckle+Face&family=Fredericka+the+Great&family=Roboto+Mono:wght@100&family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Arbutus+Slab&family=Caprasimo&family=Cormorant+SC:wght@700&family=Enriqueta&family=Faustina:ital,wght@0,300;0,500;1,500&family=Freckle+Face&family=Fredericka+the+Great&family=Roboto+Mono:wght@100&family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Arbutus+Slab&family=Caprasimo&family=Cormorant+SC:wght@700&family=Enriqueta&family=Faustina:ital,wght@0,300;0,500;1,500&family=Freckle+Face&family=Fredericka+the+Great&family=IM+Fell+English&family=Roboto+Mono:wght@100&family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Arbutus+Slab&family=Caprasimo&family=Cormorant+SC:wght@700&family=Enriqueta&family=Faustina:ital,wght@0,300;0,500;1,500&family=Freckle+Face&family=Fredericka+the+Great&family=IM+Fell+English&family=Roboto+Mono:wght@100&family=Rock+3D&family=Shippori+Mincho+B1:wght@600;700;800&display=swap');
 
 html, body{
   margin: 0;
-  padding: 50px;
+  padding: 4%;
   font-family: "Quicksand";
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center; */
+
 }
 
 .fondo-body{
   background:  rgb(255, 255, 255);
-  color: black;
-}
-
-.fondo-body-dark{
-  background: #121212;
-  color: rgb( 165, 105, 189 );
+  color: rgb(0, 0, 0);
 }
 
 .fondo{
@@ -26,55 +31,106 @@ html, body{
   color: black;
 }
 
-
+.logo_superior_umar{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 11%;
+}
 
 .flexbox{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: flex-start;
+width: 100%;
+}
+
+.informacion_profesor{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: center;
+  width: 100%;
+  /* padding: 1%; */
+  margin-bottom: 2.5%;
+  margin-top: -0.5%;
+  }
+
+  
+.flexbox-linea{
+  flex-direction: column;
 }
+
 
 /* for top menu */
+
 .main-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   text-align: center;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 0%;
+  margin-top: -7.5%;
   }
+
+
  
 .small-nav{
-    padding: 10px;
+    padding:10px;
   }
 
-.top-nav ul {
-  margin:5px;
-  padding: 10px;
-  border-radius: 25px;
-  background-color: rgb(132, 198, 236);
-  color:    rgb(255, 0, 0);
+.top-nav{
+text-align:center; 
+padding: 1%;
+width: 100%;
 }
 
+.top-nav ul {
+  margin-top: 0%;
+  margin-bottom: 0.5%;
+  padding: 0.65%; 
+  border-radius: 25px;
+  /* background-color: rgba(109, 195, 248, 0.747); */
+  /* background-color:  rgba(218, 165, 32, 0.841); */
+  background-color: rgb(228, 255, 255);
+  width: 100%;
+}
 
-.top-nav-dark ul {
-    margin:10px;
-    padding: 10px;
-    border-radius: 25px;
-    background:  rgb(53, 93, 131);
-    color:    rgb(205, 173, 218);
-  }
-
-.top-nav li {
+.top-nav li{
   display: inline;
+  color: #ffffff;
+  width: 100%;
 }
 
 .top-nav a{
-  padding: 15px;
-  font-size: 32px;
+  padding: 0.65%; 
+  font-size: 185%;
+  font-weight: 450;
   text-decoration: none;
+  color: rgb(25,25,112);
+  font-family: system-ui;
+  /* color:  rgb(0, 0, 0); */
+  width: 100%;
+
 }
 
 .top-nav a:hover{
-  background-color: #d2f1f7;
+  transition: background-color 0.5s ease;
+  /*transition: font-size 0.5s ease;
+  */
+  background-color: rgb(211, 211, 211);
+  /* padding: 0.65%;  */
+  font-size: 185%;
+  font-weight: 600;
+  color: rgb(25,25,112);
+  border-radius: 10px;
+  width: 100%;
 }
 
 .small-nav button{
@@ -91,12 +147,105 @@ html, body{
     border-radius:  10px  solid #aef1c8;
   }
 
+    
 
-.calculo-title{
+.title{
+  font-size: 210%;
+  padding: .8%;
+  font-weight: 800;
   text-align: center;
-  font-size: 100px;
   font-family: "Cinzel";
+  /* color:  rgb(0, 46, 145); */
+  color: rgb(184,134,11); 
+  width: 100%;
 }
+
+
+.subtitle{
+  font-size: 200%;
+  font: italic monospace;
+  padding: 0.15%;
+  font-weight: 800;
+  margin-bottom: 0%;
+  margin-top: -1%;
+  color:  rgb(0,0,128); 
+  width: 100%;
+  
+}
+
+.subtitle a{
+  text-decoration: none;
+}
+
+.subtitle a:visited {
+  text-decoration: none;
+}
+
+.subsubtitle{
+  font-size: 165%;
+  padding: 0px;
+  font-family: "Muli";
+  font-weight: 700;
+  margin-top: 0.25%;
+  color: rgb(15, 108, 185);
+  width: 100%;
+}
+
+.subsubtitle a{
+  content:" ";
+  /* color:  rgba(255, 157, 0, 0.867); */
+  /* color: rgba(0, 136, 255, 0.682); */
+  text-decoration: none;
+  width: 100%;
+}
+
+.subsubtitle a:visited {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-top: 1%;
+}
+
+.title_nombre{
+  font-size: 140%;
+  /* padding: .8%; */
+  font-weight: 800;
+  font-family: 'IM Fell English', serif;
+  /* font-family: 'Faustina', serif; */
+  /* font-family: 'Cormorant SC', serif; */
+  /* font-family: 'Arbutus Slab', serif; */
+  /* font-family: 'Enriqueta', serif; */
+
+  /* font-family: "Freckle Face"; */
+  margin-bottom: 0%;
+  text-align: center;
+  color:  rgb(105,105,105);
+  width: 100%;
+}
+
+
+.subtitle_nombre{
+  font-size: 120%;
+  /* padding: 0.15%; */
+  font-weight: 800;
+  /* font-family: 'IM Fell English', serif; */
+  font-family: 'Shippori Mincho B1', serif;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  text-align: center;
+  color:  rgb(105,105,105);
+  width: 100%;
+  
+}
+
+.contenedor_titulo{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-between;
+}
+
 
 .secciones-main ul{
   margin: 0;
@@ -114,17 +263,54 @@ html, body{
   text-decoration: none;
 }
 
+
+img.wmargen {
+  margin-top:-120px;
+  margin-right: -120px;
+}
+
+
+
+
  /* /////////////   for numbering /////////////////////////*/
 
 
- body.card{
-   counter-reset: sectionCounter  cardCounter ;
- }
+body.card{
+    counter-reset: sectionCounter  cardCounter ;
+          }
+
+
+h1.page-title{
+  font-size: 40px;
+  font-family: "Muli";
+  content:" ";
+  margin-bottom: -5px;
+  padding: 0px;
+  color: rgba(0, 111, 208, 0.789);
+}
+
+
+h1.page-subtitle{
+  font-size: 30px;
+  font-family: "Muli";
+  content:" ";
+  margin-bottom: 30px;
+  color: rgba(0, 111, 208, 0.867);
+}
+
+h1.title{
+  font-size: 35px;
+  font-family: "Muli";
+  margin-top: 0%;
+  content:" ";
+  color: rgb(0, 77, 179);
+}
 
 
 h1.number-title{
   counter-reset: sectionCounter  cardCounter ;
   font-family: "Muli";
+  font-size: 33px;
 }
 
 
@@ -142,6 +328,7 @@ h1.number-title:before{
 }
 
 h2.number-title{
+  font-size: 35px;
   font-family: "Roboto";
 }
 
@@ -155,18 +342,20 @@ h2.number-title:before{
 
 
 .info-box{
-  background:  rgb(218, 237, 245);
+  /* background:  rgb(218, 237, 245); */
+    background: rgb(252, 252, 244);
     color: black;
     border-radius: 20px;
     padding: 50px;
-    border: 5px solid  rgb(0, 120, 175);
-    margin: auto;
-    margin-bottom: 50px;
+    border: 0px solid  rgb(218,165,32);
+    margin: auto; 
     margin-top: 50px;
     font-size: 20px;
+    font-size: 21.5px;
     width: 80%;
-    box-shadow: 2px 2px 15px 2px  rgb(31, 147, 201);
+    box-shadow: 0px 0px 10px 0px  rgb(218,165,32);
 }
+
 
 
 .info-box-dark{
@@ -225,7 +414,7 @@ h2.number-title:before{
   margin-bottom: 50px;
   margin-top: 50px;
   font-size: 20px;
-  width: 80%;
+  width: 90%;
   box-shadow: 2px 2px 15px 2px  rgb(31, 147, 201);
 }
 
@@ -247,7 +436,20 @@ h2.number-title:before{
 
 
 .nota-box{
-  background:  rgb(218, 237, 245);
+    /* background:  rgb(218, 237, 245); */
+    background: rgb(252, 252, 244);
+    color: black;
+    border-radius: 20px;
+    padding: 50px;
+    border: 0px solid  rgb(218,165,32);
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    width: 80%;
+    box-shadow: 0px 0px 10px 0px  rgb(218,165,32);
+
+  /* background:  rgb(218, 237, 245);
     color: black;
     border-radius: 20px;
     padding: 50px;
@@ -255,9 +457,9 @@ h2.number-title:before{
     margin: auto;
     margin-bottom: 50px;
     margin-top: 50px;
-    font-size: 20px;
-    width: 80%;
-    box-shadow: 2px 2px 15px 2px  rgb(31, 147, 201);
+    font-size: 21px;
+    width: 90%;
+    box-shadow: 2px 2px 15px 2px  rgb(31, 147, 201); */
 
   /*
     background:  rgb( 255, 249, 205 );
@@ -331,13 +533,21 @@ h2.number-title:before{
 
 
 .resp-box{
-    display: none;
-    background:  rgb(247, 243, 217);
-    border-radius: 25px;
-    padding: 20px;
-    border: 5px solid rgba(40, 134, 197, 0.5);
-    margin: 20px;
-    font-size: 20px;
+  display: none;
+  background:  rgb(218, 237, 245);
+  color: black;
+  border-radius: 15px;
+  padding: 1px;
+  border-top:  0px solid   rgb(218, 237, 245);
+  border-bottom:  0px solid   rgb(218, 237, 245);
+  border-right:  10px solid   rgb(218, 237, 245);
+  border-left:  0px solid   rgb(218, 237, 245);
+  margin: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 20px;
+  width: 85%;
+  box-shadow: 1px 1px 5px 1px  rgb(31, 147, 201);
 }
 
 
@@ -408,6 +618,38 @@ h2.number-title:before{
     font-size: 20px;
     width: 70%;
     box-shadow: 10px 10px 15px  rgb( 112, 123, 124 );
+}
+
+
+.algoritmo-box{
+  background:  rgb(218, 237, 245);
+  color: black;
+  border-radius: 15px;
+  padding: 1px;
+  border-top:  0px solid   rgb(218, 237, 245);
+  border-bottom:  0px solid   rgb(218, 237, 245);
+  border-right:  10px solid   rgb(218, 237, 245);
+  border-left:  0px solid   rgb(218, 237, 245);
+  margin: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 20px;
+  width: 85%;
+  box-shadow: 1px 1px 5px 1px  rgb(31, 147, 201);
+}
+
+.pseudocodigo-box{
+  background:  rgb(218, 237, 245);
+  color: black;
+  border-radius: 20px;
+  padding: 1px;
+  border-left:  20px solid   rgb(218, 237, 245);
+  margin: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 20px;
+  width: 40%;
+  box-shadow: 1px 1px 5px 1px  rgb(31, 147, 201);
 }
 
 /*////////// Small boxes /////////////////////// */
@@ -483,12 +725,53 @@ table {
   width: 100%;
 }
 
-td, th {
-  border: 1px solid #dddddd;
+th{
+  border: 1.7px solid #46a1df;
+  text-align: center;
+  padding: 8px;
+  background-color: rgb(207, 207, 207);
+}
+
+td{
+  border: 1.7px solid #46a1df;
   text-align: left;
   padding: 8px;
+  
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: rgb(255, 255, 255);
 }
+
+tr:nth-child(odd) {
+  background-color: rgb(196, 231, 255);
+}
+
+.three-column{
+  columns: 3;
+  /*grid-template-columns: repeat(2, 1fr);*/
+}
+
+.two-column{
+  columns: 2;
+  /*grid-template-columns: repeat(2, 1fr);*/
+}
+
+
+/*//// Listas//////*/
+/*
+ol {
+  list-style: none;
+  counter-reset: my-counter;
+}
+ol li {
+  counter-increment: my-counter;
+  padding: 1px;
+}
+
+ol li::before {
+  content:  counter(my-counter) ".- ";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+}*/
