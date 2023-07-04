@@ -8,15 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Arbutus+Slab&family=Caprasimo&family=Enriqueta&family=Faustina:ital,wght@0,300;0,500;1,500&family=Freckle+Face&family=Fredericka+the+Great&family=Roboto+Mono:wght@100&family=Rock+3D&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Arbutus+Slab&family=Caprasimo&family=Cormorant+SC:wght@700&family=Enriqueta&family=Faustina:ital,wght@0,300;0,500;1,500&family=Freckle+Face&family=Fredericka+the+Great&family=Roboto+Mono:wght@100&family=Rock+3D&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Arbutus+Slab&family=Caprasimo&family=Cormorant+SC:wght@700&family=Enriqueta&family=Faustina:ital,wght@0,300;0,500;1,500&family=Freckle+Face&family=Fredericka+the+Great&family=IM+Fell+English&family=Roboto+Mono:wght@100&family=Rock+3D&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Arbutus+Slab&family=Caprasimo&family=Cormorant+SC:wght@700&family=Enriqueta&family=Faustina:ital,wght@0,300;0,500;1,500&family=Freckle+Face&family=Fredericka+the+Great&family=IM+Fell+English&family=Roboto+Mono:wght@100&family=Rock+3D&family=Shippori+Mincho+B1:wght@600;700;800&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
-
 
 html, body{
   margin: 0;
@@ -111,37 +103,34 @@ width: 100%;
 }
 
 .top-nav li{
-  padding: 2.5%; 
   display: inline;
   color: #ffffff;
   width: 100%;
 }
 
 .top-nav a{
-  padding: .5%; 
+  padding: 0.65%; 
   font-size: 185%;
   font-weight: 450;
   text-decoration: none;
   color: rgb(25,25,112);
-  /* font-family: system-ui; */
-  font-family: 'IM Fell English';
+  font-family: system-ui;
   /* color:  rgb(0, 0, 0); */
   width: 100%;
+
 }
 
 .top-nav a:hover{
   transition: background-color 0.5s ease;
-  /*transition: font-size 0.5s ease;*/
+  /*transition: font-size 0.5s ease;
+  */
   background-color: rgb(211, 211, 211);
+  /* padding: 0.65%;  */
   font-size: 185%;
-  font-weight: 550;
+  font-weight: 600;
   color: rgb(25,25,112);
   border-radius: 10px;
   width: 100%;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
 }
 
 .small-nav button{
@@ -166,23 +155,8 @@ width: 100%;
   font-weight: 800;
   text-align: center;
   font-family: "Cinzel";
-  margin-top: 0%;
   /* color:  rgb(0, 46, 145); */
   color: rgb(184,134,11); 
-  width: 100%;
-}
-
-.titulo{
-  font-size: 205%;
-  /* padding: 1%; */
-  /* font-weight: 800; */
-  text-align: center;
-  /* font-family: 'Caprasimo', cursive; */
-  font-family: 'IM Fell English', serif;
-  /* font-family: "Cinzel"; */
-  /* margin-top: 1%; */
-  /* color:  rgb(0, 46, 145); */
-  /* color: rgb(184,134,11);  */
   width: 100%;
 }
 
@@ -232,7 +206,7 @@ width: 100%;
 }
 
 .title_nombre{
-  font-size: 130%;
+  font-size: 140%;
   /* padding: .8%; */
   font-weight: 800;
   font-family: 'IM Fell English', serif;
@@ -243,7 +217,6 @@ width: 100%;
 
   /* font-family: "Freckle Face"; */
   margin-bottom: 0%;
-  margin-top: -5%;
   text-align: center;
   color:  rgb(105,105,105);
   width: 100%;
@@ -251,12 +224,12 @@ width: 100%;
 
 
 .subtitle_nombre{
-  font-size: 115%;
+  font-size: 120%;
   /* padding: 0.15%; */
   font-weight: 800;
   /* font-family: 'IM Fell English', serif; */
   font-family: 'Shippori Mincho B1', serif;
-  margin-bottom: -8%;
+  margin-bottom: 0%;
   margin-top: 0%;
   text-align: center;
   color:  rgb(105,105,105);
@@ -326,10 +299,9 @@ h1.page-subtitle{
 }
 
 h1.title{
-  font-size: 150%;
+  font-size: 35px;
   font-family: "Muli";
-  margin-top: -2.5%;
-  margin-bottom: 0%;
+  margin-top: 0%;
   content:" ";
   color: rgb(0, 77, 179);
 }
@@ -446,7 +418,7 @@ h2.number-title:before{
   box-shadow: 2px 2px 15px 2px  rgb(31, 147, 201);
 }
 
-/* 
+
 .ejercicio-box-dark{
   background:  rgb(  33, 47, 60  );
   color:  rgb( 165, 105, 189 );
@@ -459,7 +431,7 @@ h2.number-title:before{
   font-size: 20px;
   width: 70%;
   box-shadow: 10px 10px 15px  rgb( 112, 123, 124 );
-} */
+}
 
 
 
@@ -503,7 +475,7 @@ h2.number-title:before{
     */
 }
 
-/* 
+
 .nota-box-dark{
     background:  rgb(  33, 47, 60  );
     color:  rgb( 165, 105, 189 );
@@ -517,7 +489,7 @@ h2.number-title:before{
     width: 70%;
     box-shadow: 10px 10px 15px  rgb( 112, 123, 124 );
 }
- */
+
 
 .teorema-box{
   background:  rgb(218, 237, 245);
@@ -544,7 +516,7 @@ h2.number-title:before{
     box-shadow: 10px 10px 15px  rgb( 112, 123, 124 );*/
 }
 
-/* 
+
 .teorema-box-dark{
     background:  rgb(  33, 47, 60  );
     color:  rgb( 165, 105, 189 );
@@ -557,7 +529,7 @@ h2.number-title:before{
     font-size: 20px;
     width: 70%;
     box-shadow: 10px 10px 15px  rgb( 112, 123, 124 );
-} */
+}
 
 
 .resp-box{
