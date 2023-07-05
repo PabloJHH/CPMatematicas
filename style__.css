@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Faustina:ital,wght@0,300;0,500;1,500&family=Freckle+Face&family=Fredericka+the+Great&family=Roboto+Mono:wght@100&family=Rock+3D&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Enriqueta&family=Faustina:ital,wght@0,300;0,500;1,500&family=Freckle+Face&family=Fredericka+the+Great&family=Roboto+Mono:wght@100&family=Rock+3D&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Caprasimo&family=Enriqueta&family=Faustina:ital,wght@0,300;0,500;1,500&family=Freckle+Face&family=Fredericka+the+Great&family=Roboto+Mono:wght@100&family=Rock+3D&display=swap');
@@ -18,18 +17,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
 
-
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
 
 html, body{
   margin: 0;
@@ -124,7 +111,7 @@ width: 100%;
 }
 
 .top-nav li{
-  padding: 1.75%; 
+  padding: 2.5%; 
   display: inline;
   color: #ffffff;
   width: 100%;
@@ -143,8 +130,8 @@ width: 100%;
 }
 
 .top-nav a:hover{
-  transition: background-color 0.75s ease;
-  /* transition: font-size 0.75s ease; */
+  transition: background-color 0.5s ease;
+  /*transition: font-size 0.5s ease;*/
   background-color: rgb(211, 211, 211);
   font-size: 185%;
   font-weight: 550;
@@ -155,10 +142,6 @@ width: 100%;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  -webkit-transition: font-size 0.75s ease;
-  -moz-transition: font-size 0.75s ease;
-  -ms-transition: font-size 0.75s ease;
-  -o-transition: font-size 0.75s ease;
 }
 
 .small-nav button{
@@ -178,53 +161,57 @@ width: 100%;
     
 
 .title{
-  font-size: 300%;
-  padding: .75%;
-  /* font-weight: 800; */
+  font-size: 210%;
+  padding: .8%;
+  font-weight: 800;
   text-align: center;
-  /* font-family: "Cinzel"; */
-  font-family: 'Fredericka the Great', cursive;
-  /* font-family: 'Jacques Francois Shadow', cursive; */
+  font-family: "Cinzel";
   margin-top: 0%;
   /* color:  rgb(0, 46, 145); */
   color: rgb(184,134,11); 
   width: 100%;
 }
 
+.titulo{
+  font-size: 205%;
+  /* padding: 1%; */
+  /* font-weight: 800; */
+  text-align: center;
+  /* font-family: 'Caprasimo', cursive; */
+  font-family: 'IM Fell English', serif;
+  /* font-family: "Cinzel"; */
+  /* margin-top: 1%; */
+  /* color:  rgb(0, 46, 145); */
+  /* color: rgb(184,134,11);  */
+  width: 100%;
+}
 
 
 .subtitle{
-  font-size: 150%;
-  /* font: italic monospace; */
-  /* font-family: 'Bacasime Antique', serif; */
-  /* font-family: 'Bacasime Antique', serif; */
-  /* font-family: 'Jacques Francois Shadow', cursive; */
-  font-family: 'Fredericka the Great', cursive;
+  font-size: 200%;
+  font: italic monospace;
   padding: 0.15%;
   font-weight: 800;
   margin-bottom: 0%;
   margin-top: -1%;
   color:  rgb(0,0,128); 
-  width: 80%;
+  width: 100%;
   
 }
 
-/* .subtitle a{
+.subtitle a{
   text-decoration: none;
 }
 
 .subtitle a:visited {
   text-decoration: none;
-} */
+}
 
 .subsubtitle{
-  font-size: 150%;
+  font-size: 165%;
   padding: 0px;
-  /* font-family: "Muli"; */
-  /* font-family: 'Bacasime Antique', serif; */
-  /* font-family: 'Bacasime Antique', serif; */
-  font-family: 'Fredericka the Great', cursive;
-  /* font-weight: 700; */
+  font-family: "Muli";
+  font-weight: 700;
   margin-top: 0.25%;
   color: rgb(15, 108, 185);
   width: 100%;
@@ -331,30 +318,16 @@ h1.page-title{
 
 
 h1.page-subtitle{
-  font-size: 210%;
-  /* padding: 1%; */
-  /* font-weight: 800; */
-  text-align: center;
-  /* font-family: 'Caprasimo', cursive; */
-  font-family: 'IM Fell English', serif;
-  /* font-family: "Cinzel"; */
-  /* margin-top: 1%; */
-  /* color:  rgb(0, 46, 145); */
-  /* color: rgb(184,134,11);  */
-  width: 100%;
-
-  /* content:" "; */
-  /* color: rgba(0, 111, 208, 0.867);  */
+  font-size: 30px;
+  font-family: "Muli";
+  content:" ";
+  margin-bottom: 30px;
+  color: rgba(0, 111, 208, 0.867);
 }
 
-
-
 h1.title{
-  font-size: 180%;
-  /* font-family: "Muli"; */
-  /* font-family: 'Pangolin', cursive; */
-  font-family: 'Cabin Sketch', cursive;
-  /* font-family: 'Jacques Francois Shadow', cursive; */
+  font-size: 150%;
+  font-family: "Muli";
   margin-top: -2.5%;
   margin-bottom: 0%;
   content:" ";
@@ -397,20 +370,6 @@ h2.number-title:before{
 
 
 .info-box{
-  /* background:  rgb(218, 237, 245); */
-    background: rgb(252, 252, 244);
-    color: black;
-    border-radius: 20px;
-    padding: 50px;
-    border: 0px solid  rgb(218,165,32);
-    margin: auto; 
-    margin-top: 50px;
-    font-size: 19.5px;
-    width: 80%;
-    box-shadow: 0px 0px 10px 0px  rgb(218,165,32);
-}
-
-.info-profesor-box{
   /* background:  rgb(218, 237, 245); */
     background: rgb(252, 252, 244);
     color: black;
