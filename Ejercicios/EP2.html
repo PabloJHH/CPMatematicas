@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC >
 
 <html lang="es">
@@ -12,31 +11,55 @@
 
 
     <!-- This part is to load main.js -->
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="../main.js"></script>
 
-    <!-- Next part is for new coomands -->
-    <script>
-      window.MathJax = {
-        tex: {
-          macros: {
-            sen: "\\operatorname{sen}",
-            seg: ["\\overrightarrow{#1}", 1]
-          }
-        }
-      };
+    
+
+   <!-- Next part is for new coomands -->
+   <script>
+    window.MathJax = {
+      tex: {
+        macros: {
+          sen: "\\operatorname{sen}",
+          seg: ["\\overrightarrow{#1}", 1]
+        },
+        tags: "ams" /* this part is for numbered equations */
+      }
+    };
+  </script>
+
+  <!-- This part is for using single $ for latex input, instead of \(\) -->
+  <script>
+      MathJax = {
+      tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+      svg: {
+          fontCache: 'global'
+      }
+  };
     </script>
+
+    
+    <!-- This part restart counter of cards to start at n+1 -->
+    <style>
+      /* body.number-title{
+        counter-reset: sectionCounter 1 subsectioncounter ;
+      } */
+      h1.page-title-practica{
+        counter-reset: semanaCounter 2 sectionCounter  subsectionCounter;
+      }
+    </style>
 
     <!-- CSS -->
 
-    <link rel="stylesheet" , href="style.css" />
-
-    
+    <link rel="stylesheet" , href="../style.css" />
     <!-- Top Menu  -->
-
+    
     <header class="main-header">
         
       <div class="logo_superior_umar">
-      <a href="https://www.umar.mx" target="_blank"><img src="./Imagenes/umar_logo_hd.webp" alt="Logo_UMAR" width="110%" height="auto"></a>
+      <a href="https://www.umar.mx" target="_blank"><img src="../Imagenes/umar_logo_hd.webp" alt="Logo_UMAR" width="110%" height="auto"></a>
       </div>
       <div class="contenedor_titulo">
         <div class="title">Curso Propedéutico Matemáticas</div>
@@ -49,19 +72,29 @@
      
     </header>
 
+
+    <nav class="top-nav">
+      <ul>
+          <li> <a href="https://pjhh-ciencias.github.io/CPMatematicas/Home.html"> Inicio  </a> </li>
+          <li> <a href="https://pjhh-ciencias.github.io/CPMatematicas/Informacion_General.html"> Información general </a> </li>
+          <!-- <li> <a href="https://pjhh-ciencias.github.io/CPMatematicasNotas.html"> Notas  </a> </li> -->
+          <li> <a href="https://pjhh-ciencias.github.io/CPMatematicas/Ejercicios.html"> Ejercicios </a> </li>
+          <li> <a href="https://pjhh-ciencias.github.io/CPMatematicas/Enlaces_externos.html"> Links </a> </li>
+      </ul>
+  </nav>
+
       <!-- This part is for title in tab-->
-      <title> Ejercicios Excel  </title>
+      <title> Ejercicios</title>
     
   </head>
 
 
 
-  <body class="fondo-body" >
-    <h1 class="number-title flexbox"> Ejercicios propuestos Tarea 2 </h1>   
+
+  <body class="fondo-body" ><h1 class="page-title-practica"> Ejercicios propuestos segundo examen parcial</h1>   
+    
   
-  
-    <div class="ejercicio-box">
-       <h2 class="number-title"> Ejercicio</h2>
+    <div class="nota-box"><h1 class="number-title-practica"> Ejercicio</h1>
 
        <p>Sean $x,y,z \in \mathbb{R}$. Establezca cual o cuales axiomas de los números reales  justifican cada una de las 
         siguientes igualdades:</p>
@@ -89,8 +122,8 @@
         </ol>     
     </div>
 
-    <div class="ejercicio-box">
-      <h2 class="number-title"> Ejercicio</h2>
+    <div class="nota-box">
+      <h1 class="number-title-practica"> Ejercicio</h1>
 <p>Simplifique cada una de las siguientes expresiones:</p>
 <ol>
   <li>$-2+ (-4)$</li>
@@ -133,8 +166,8 @@
 
 
 
-  <div class="ejercicio-box">
-    <h2 class="number-title"> Ejercicio</h2>
+  <div class="nota-box">
+    <h1 class="number-title-practica"> Ejercicio</h1>
   Si $x$ es positivo y $y$ es negativo, determine el signo del número real: 
   <ol>
     <li>$10x$</li>
@@ -154,8 +187,8 @@
 
 
 
-  <div class="ejercicio-box">
-    <h2 class="number-title"> Ejercicio</h2>
+  <div class="nota-box">
+    <h1 class="number-title-practica"> Ejercicio</h1>
     <p>Realice las siguientes operaciones</p>
 
     <ol>
@@ -218,8 +251,8 @@
   
   
   
-  <div class="ejercicio-box">
-    <h2 class="number-title"> Ejercicio</h2>
+  <div class="nota-box">
+    <h1 class="number-title-practica"> Ejercicio</h1>
   <p>Realice las siguientes operaciones:</p>
   <p>
     <ol>
@@ -253,8 +286,8 @@
   </div>
 
 
-  <div class="ejercicio-box">
-    <h2 class="number-title"> Ejercicio</h2>
+  <div class="nota-box">
+    <h1 class="number-title-practica"> Ejercicio</h1>
   <p>Realice las siguientes operaciones:</p>
 
   <ol>
