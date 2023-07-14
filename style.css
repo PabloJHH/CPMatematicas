@@ -197,9 +197,9 @@ width: 100%;
 
 
 .title{
-  font-size: 310%;
+  font-size: 250%;
   padding: .75%;
-  /* font-weight: 700;  */
+  font-weight: 600; 
   text-align: center;
   /* font-family: "Cinzel"; */
   font-family: 'Fredericka the Great', cursive;
