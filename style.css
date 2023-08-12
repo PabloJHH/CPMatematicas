@@ -400,6 +400,15 @@ h1.number-title::before{
   content: counter(semanaCounter)"."counter(sectionCounter)".";
 }
 
+
+h2.title{
+  margin-top: -1.5%;
+  padding: 0.25%;
+  font-size: 175%;
+  font-family: 'Hina Mincho', serif;
+  color: rgb(3, 89, 165); 
+}
+
 h2.number-title{
   margin-top: -1.5%;
   padding: 0.25%;
