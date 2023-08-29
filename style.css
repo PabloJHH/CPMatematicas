@@ -817,6 +817,17 @@ tr:nth-child(odd) {
   background-color: rgb(196, 231, 255);
 }
 
+
+.five-column{
+  columns: 5;
+  /*grid-template-columns: repeat(2, 1fr);*/
+}
+
+.four-column{
+  columns: 4;
+  /*grid-template-columns: repeat(2, 1fr);*/
+}
+
 .three-column{
   columns: 3;
   /*grid-template-columns: repeat(2, 1fr);*/
